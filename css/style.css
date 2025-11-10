@@ -30,7 +30,12 @@ body {
 
 
 /* Header Start  */
-/* #header {} */
+
+@media (max-width:500px) {
+    #header {
+        padding-bottom: 200px;
+    }
+}
 
 #header nav {
     display: flex;
